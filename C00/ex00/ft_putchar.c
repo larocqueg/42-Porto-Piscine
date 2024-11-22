@@ -16,20 +16,3 @@ void	ft_putchar(char c)
 {
 	write (1, &c, 1);
 }
-/*
-int	main(void)
-{
-	char a = 'a';
-	char b = 'b';
-	char c = 'c';
-
-	ft_putchar(a);
-	ft_putchar('\n');
-	ft_putchar(b);
-	ft_putchar('\n');
-	ft_putchar(c);
-	ft_putchar('\n');
-
-	return (0);
-}
-*/
